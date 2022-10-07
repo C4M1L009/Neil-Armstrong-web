@@ -1,15 +1,13 @@
 body{
     margin:0;
     text-align:center;
-    padding-top:800px;
 }
 .NAwel2{
     border-radius:50%;
     width:400px;
     height: 400px;
 }
-#NAwel{
-    position:absolute;
+#NAwel{ 
     bottom:0;
     background:linear-gradient(#5f92e3 0%,#9464e8 100%);
     display:table;
@@ -57,28 +55,11 @@ h2{
     #h1{
         font-family: 'Dancing Script', cursive;
     }
-    .menu{
-        position:fixed;
-        top:0px;
-        z-index:10;
-        background: #5f92e3;
-        width:100%;
-        margin-top:0px;
-    }
-    .links{
-        padding-left:33px;
-        padding-right:25px;
-        font-family: 'Abril Fatface', cursive;
-        font-size:20px;
-        display:inline;
-    }
+      
     a{
         text-decoration:none;
     }
-    .links:hover{
-        text-decoration:underline;
-        font-size:25px;    
-    } 
+    
     #NAtext a { text-decoration: underline !important; color: rgb(198, 144, 231) !important; }
      #NAcon{ background:rgb(64, 199, 226); }
      #NAcon iframe{ width: 100%; }
@@ -90,3 +71,8 @@ h2{
            height: 250px;
            margin:20px;
      }
+     .my_nav_bar{
+        position:sticky;
+        top:0;
+        z-index:99999;
+      }
